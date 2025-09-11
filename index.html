@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Panificadora Transversal - Os melhores pães artesanais de Feira de Santana. Produtos frescos diariamente.">
+    <meta name="keywords" content="padaria, pães, bolos, salgados, Feira de Santana, artesanal">
+    <meta name="author" content="Panificadora Transversal">
+    
+    <meta property="og:title" content="Panificadora Transversal">
+    <meta property="og:description" content="Os melhores pães artesanais de Feira de Santana">
+    <meta property="og:type" content="website">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="css/pg.css" rel="stylesheet" type="text/css">
+    
+    <title>Panificadora Transversal - Os melhores pães artesanais</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <i class="fas fa-bread-slice me-2"></i>
+                <span class="d-none d-sm-inline">Panificadora Transversal</span>
+                <span class="d-inline d-sm-none">P. Transversal</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            <i class="bi bi-house-fill me-1"></i>
+                            <span class="d-none d-md-inline">Início</span>
+                            <span class="d-inline d-md-none">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-basket3-fill me-1"></i>Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mainQuemSomos">
+                            <i class="bi bi-people-fill me-1"></i>Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-telephone-fill me-1"></i>Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="sectionCarrosel">
+            <div id="carouselExampleControls" class="carousel slide carousel-fase" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="Imagens/differential-3-CmIxMGpU.jpg" id="imgBanner" class="d-block w-100" alt="Pães Artesanais">
+                        <div class="carousel-caption-custom d-flex flex-column justify-content-center align-items-center text-center">
+                            <h1 class="mb-3">Pães Artesanais Fresquinhos</h1>
+                            <p class="mb-4 d-none d-md-block">Tradição e qualidade em cada pão, feitos com amor e ingredientes selecionados</p>
+                            <p class="mb-4 d-block d-md-none">Tradição e qualidade em cada pão</p>
+                            <a href="#contato" class="btn btn-custom btn-lg">
+                                <i class="bi bi-whatsapp me-2"></i>
+                                <span class="d-none d-sm-inline">Faça seu Pedido</span>
+                                <span class="d-inline d-sm-none">Pedido</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="Imagens/trans-padaria-o-pao-que-o-viado-amassou-1.jpeg" id="imgBanner2" class="d-block w-100" alt="Doces e Bolos">
+                        <div class="carousel-caption-custom d-flex flex-column justify-content-center align-items-center text-center">
+                            <h1 class="mb-3">Doces Irresistíveis</h1>
+                            <p class="mb-4 d-none d-md-block">Bolos, tortas e doces artesanais para adoçar seus momentos especiais</p>
+                            <p class="mb-4 d-block d-md-none">Doces artesanais para momentos especiais</p>
+                            <a href="#produtos" class="btn btn-custom btn-lg">
+                                <i class="bi bi-eye-fill me-2"></i>
+                                <span class="d-none d-sm-inline">Ver Produtos</span>
+                                <span class="d-inline d-sm-none">Produtos</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="Imagens/trans-padaria-o-pao-que-o-viado-amassou-2-768x1024.jpeg" id="imgBanner3" class="d-block w-100" alt="Salgados">
+                        <div class="carousel-caption-custom d-flex flex-column justify-content-center align-items-center text-center">
+                            <h1 class="mb-3">Salgados Deliciosos</h1>
+                            <p class="mb-4 d-none d-md-block">Coxinhas, pastéis e sanduíches preparados frescos diariamente</p>
+                            <p class="mb-4 d-block d-md-none">Salgados preparados frescos diariamente</p>
+                            <a href="#mainQuemSomos" class="btn btn-custom btn-lg">
+                                <i class="bi bi-info-circle-fill me-2"></i>
+                                <span class="d-none d-sm-inline">Conheça Nossa História</span>
+                                <span class="d-inline d-sm-none">História</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="section-produtos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title">Nossos Produtos</h2>
+                        <p class="lead mb-5">Descubra nossa variedade de produtos artesanais feitos com carinho</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4 justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8">
+                        <div class="card produto-card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <div class="produto-icon text-center mb-3">🥖</div>
+                                <h3 class="card-title text-center">Pães Artesanais</h3>
+                                <p class="card-text flex-grow-1">
+                                    Pão de todos os tipos, não recusamos nada temos frances, integral, de forma e especiais. Todos feitos com o nosso fermento natural 
+                                    e ingredientes selecionados para garantir sabor e qualidade únicos.
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Pão Francês</li>
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Pão Integral</li>
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Pão de Forma</li>
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Pães Especiais</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-8">
+                        <div class="card produto-card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <div class="produto-icon text-center mb-3">🥐</div>
+                                <h3 class="card-title text-center">Salgados Sem Frescura</h3>
+                                <p class="card-text flex-grow-1">
+                                    Coxinhas, pastéis, pães de açúcar, sanduíches e salgadinhos preparados 
+                                    frescos diariamente para seu lanche ou festa.
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Coxinhas</li>
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Pastéis</li>
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Sanduíches</li>
+                                    <li><i class="bi bi-check-circle text-success me-2"></i>Salgados para Festa</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 text-center">
+                        <a href="#contato" class="btn btn-custom btn-lg">
+                            <i class="bi bi-cart-plus me-2"></i>Faça seu Pedido Agora
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mainQuemSomos">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 text-center mb-4 mb-lg-0 order-2 order-lg-1">
+                        <img src="_images/quemsomos.png" class="img-fluid rounded" alt="Nossa História">
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                        <div class="px-3 px-md-4 px-lg-5">
+                            <h2 class="section-title text-start">Nossa História</h2>
+                            <p class="lead">
+                                A Panificadora Transversal nasceu em 202x do sonho de uma família apaixonada e diferente.
+                            </p>
+                            <p>
+                                Começamos como uma pequena padaria de bairro em Feira de Santana e, ao longo 
+                                de quase 30 anos, nos tornamos referência em qualidade e tradição. Nossa missão 
+                                sempre foi levar o melhor da panificação artesanal para a mesa das famílias 
+                                baianas, mantendo o sabor caseiro e a qualidade que nossos clientes merecem.
+                            </p>
+                            <p class="d-none d-md-block">
+                                Utilizamos apenas ingredientes frescos e de alta qualidade, seguindo receitas 
+                                tradicionais passadas de geração em geração. Cada pão, cada doce e cada salgado 
+                                é preparado com dedicação e amor, preservando o sabor autêntico que conquistou 
+                                o coração de nossa comunidade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section-contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section-title">Entre em Contato</h2>
+                        <p class="lead">Faça seu pedido ou tire suas dúvidas conosco</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                        <h3 class="mb-4">
+                            <i class="bi bi-info-circle me-2"></i>Informações
+                        </h3>
+
+                        <div class="contato-item mb-3 d-flex align-items-start">
+                            <i class="bi bi-geo-alt-fill me-3 mt-1"></i>
+                            <span>Micareta, bairro Heineken 123 - Centro, Feira de Santana - BA</span>
+                        </div>
+
+                        <div class="contato-item mb-3 d-flex align-items-center">
+                            <i class="bi bi-telephone-fill me-3"></i>
+                            <span>
+                                <a href="tel:+5575xxxxxxxx" class="text-white text-decoration-none">
+                                    (75) xxxx-xxxx
+                                </a>
+                            </span>
+                        </div>
+
+                        <div class="contato-item mb-3 d-flex align-items-start">
+                            <i class="bi bi-clock-fill me-3 mt-1"></i>
+                            <div>
+                                <div class="d-none d-md-block">Seg-Sex: 6h às 20h | Sáb-Dom: 6h às 18h</div>
+                                <div class="d-block d-md-none">
+                                    <div>Seg-Sex: 6h às 20h</div>
+                                    <div>Sáb-Dom: 6h às 18h</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contato-item mb-4 d-flex align-items-center">
+                            <i class="bi bi-envelope-fill me-3"></i>
+                            <span>
+                                <a href="mailto:contato@transversal.com.br" class="text-white text-decoration-none">
+                                    contato@transversal.com.br
+                                </a>
+                            </span>
+                        </div>
+
+                        <div class="mt-4">
+                            <h4 class="mb-3">Nos siga nas redes sociais:</h4>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="#" class="btn btn-outline-light btn-sm">
+                                    <i class="fab fa-instagram me-1"></i>Instagram
+                                </a>
+                                <a href="#" class="btn btn-outline-light btn-sm">
+                                    <i class="fab fa-tiktok me-1"></i>TikTok
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <h3 class="mb-4">
+                            <i class="bi bi-chat-dots-fill me-2"></i>Faça seu Pedido
+                        </h3>
+
+                        <form id="pedidoForm" novalidate>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <label for="nome" class="form-label">Nome Completo *</label>
+                                    <input type="text" class="form-control" id="nome" name="nome" required>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe seu nome completo.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="telefone" class="form-label">Telefone/WhatsApp *</label>
+                                    <input type="tel" class="form-control" id="telefone" name="telefone" 
+                                           placeholder="(xx) xxxxx-xxxx" required>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe um telefone válido.
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                           placeholder="seu@email.com">
+                                    <div class="invalid-feedback">
+                                        Por favor, informe um e-mail válido.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="pedido" class="form-label">Descreva seu Pedido *</label>
+                                <textarea class="form-control" id="pedido" name="pedido" rows="4"
+                                    placeholder="Ex: 10 pães franceses, 1 bolo de chocolate para 20 pessoas..." 
+                                    required></textarea>
+                                <div class="invalid-feedback">
+                                    Por favor, descreva seu pedido com detalhes.
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-custom btn-lg w-100">
+                                <i class="bi bi-send-fill me-2"></i>
+                                Enviar Pedido
+                            </button>
+                            
+                            <small class="text-light d-block mt-2 text-center">
+                                * Campos obrigatórios
+                            </small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-2">
+                        <strong><i class="fas fa-bread-slice me-2"></i>Panificadora Transversal</strong>
+                    </p>
+                    <p class="mb-2 d-none d-md-block">
+                       Micareta, bairro Heineken 123 - Centro, Feira de Santana - BA<br>
+                        Telefone: (75) xxxx-xxxx 
+                    </p>
+                    <p class="mb-2 d-block d-md-none">
+                       Micareta, bairro Heineken 123<br>
+                       Centro, Feira de Santana - BA<br>
+                        (75) xxxx-xxxx 
+                    </p>
+                    <p class="mb-0">
+                        &copy; 2025 Todos os direitos reservados.
+                        <span class="d-none d-sm-inline">Desenvolvido com <i class="bi bi-heart-fill text-danger"></i> em Feira de Santana</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="_js/pg.js"></script>
+</body>
+
+</html>
